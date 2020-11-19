@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:theme="@style/AppTheme.AppBarOverlay">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/material_color_blue_700"
+                android:theme="@style/ToolBarStyle"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginHorizontal="@dimen/activityPadding"
+                android:paddingVertical="8dp"
+                app:tabIndicatorHeight="5dp"
+                app:tabGravity="fill"
+                app:tabMode="fixed"
+                app:tabIndicatorColor="@color/material_color_blue_700"
+                app:tabTextColor="@color/material_color_blue_700"
+                app:tabBackground="@color/white"
+                android:background="@color/white"/>
+        </com.google.android.material.appbar.AppBarLayout>
+        <co.id.fastpay.fastpaynotification.utils.NonSwipeableViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

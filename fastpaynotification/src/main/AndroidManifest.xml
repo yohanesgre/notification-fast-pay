@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="co.id.fastpay.fastpaynotification">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        tools:targetApi="m"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:theme="@style/NotificationTheme"
+            android:name="co.id.fastpay.fastpaynotification.ui.NotificationActivity" />
+        <activity android:theme="@style/NotificationTheme"
+            android:name="co.id.fastpay.fastpaynotification.ui.NotificationDetailActivity"/>
+        <activity android:theme="@style/NotificationTheme"
+            android:name=".ui.WebViewActivity"/>
+    </application>
+
+</manifest>

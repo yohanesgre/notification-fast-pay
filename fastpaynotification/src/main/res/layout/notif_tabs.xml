@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="@dimen/dimen_10">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            tools:text="Tab"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/material_text_color_black_text"
+            android:textSize="@dimen/_12ssp"
+            android:autoSizeMinTextSize="@dimen/_10ssp"
+            android:autoSizeMaxTextSize="@dimen/_100ssp"
+            android:autoSizeStepGranularity="@dimen/_2ssp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/unread_count"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/circle_red"
+            android:gravity="center"
+            tools:text="1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13ssp"
+            android:autoSizeMinTextSize="@dimen/_10ssp"
+            android:autoSizeMaxTextSize="@dimen/_100ssp"
+            android:autoSizeStepGranularity="@dimen/_2ssp"/>
+    </LinearLayout>
+</layout>

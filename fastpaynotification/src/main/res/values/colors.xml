@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/material_color_blue_700</color>
+    <color name="colorPrimaryDark">#2a36b1</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+
+    <!-- Common colors -->
+    <color name="list_choice_normal_bg_light">#fffafafa</color>
+    <color name="list_choice_pressed_bg_light">#fddd</color>
+</resources>

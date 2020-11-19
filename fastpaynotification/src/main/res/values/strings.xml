@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FastPay Notification</string>
+    <string name="network_not_available">Please check your internet connection.</string>
+    <string name="subheader">%s (%s)</string>
+    <string name="inbox_detail_header_content">Bikin pelanggan makin tenang untuk bayar tagihannya di loket Juragan sekarang!</string>
+    <plurals name="item">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+    <string name="channel_name">Notify</string>
+    <string name="channel_description">channelnotify</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+</resources>

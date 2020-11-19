@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "689702311304",
+    "firebase_url": "https://notification-fast.firebaseio.com",
+    "project_id": "notification-fast",
+    "storage_bucket": "notification-fast.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689702311304:android:ca101449e13bf91f03563d",
+        "android_client_info": {
+          "package_name": "co.id.fastpay.notificationfastpay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689702311304-72323mp5deh9bag0kjadet7teqrcs76t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.id.fastpay.notificationfastpay",
+            "certificate_hash": "283bf39c0fab2b2de0d5b9e0dff729fac6f09d6c"
+          }
+        },
+        {
+          "client_id": "689702311304-8l01m0f6dq0aqu9r8p4ltl6qdtgj3bcp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxXcC_GVsAvJ6c776qrOSYHe2vh2rsKf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689702311304-8l01m0f6dq0aqu9r8p4ltl6qdtgj3bcp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

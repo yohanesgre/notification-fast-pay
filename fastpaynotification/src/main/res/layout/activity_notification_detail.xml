@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@color/white">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/material_color_blue_700"
+                android:theme="@style/ToolBarStyle"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nested_scroll_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/header_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:text="Keuntungan di Depan Mata"
+                        android:gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/margin_top"
+                        android:layout_marginBottom="3dp"
+                        android:maxLines="2"
+                        android:layout_marginHorizontal="@dimen/dimen_30"
+                        android:fontFamily="@font/roboto_bold"
+                        android:textSize="@dimen/_16ssp"
+                        android:autoSizeMinTextSize="@dimen/_16ssp"
+                        android:autoSizeMaxTextSize="@dimen/_100ssp"
+                        android:autoSizeStepGranularity="@dimen/_2ssp"
+                        android:textColor="@color/material_text_color_black_text"/>
+                    <View
+                        android:id="@+id/divider"
+                        android:visibility="gone"
+                        android:layout_width="150dp"
+                        android:layout_height="4dp"
+                        android:background="@color/material_color_blue_700"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="@dimen/margin_bottom"/>
+                    <include layout="@layout/card_inbox_detail" android:id="@+id/layout_body"/>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

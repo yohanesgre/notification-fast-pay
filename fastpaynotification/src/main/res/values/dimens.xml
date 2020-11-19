@@ -1,0 +1,27 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16sp</dimen>
+    <dimen name="activity_vertical_margin">16sp</dimen>
+
+    <dimen name="activityPadding">16sp</dimen>
+    <dimen name="placeholderImage">60sp</dimen>
+    <dimen name="placeholderTextHeight">16sp</dimen>
+    <dimen name="dimen_10">10sp</dimen>
+    <dimen name="dimen_20">20sp</dimen>
+    <dimen name="dimen_16">16sp</dimen>
+    <dimen name="dimen_30">30sp</dimen>
+    <dimen name="dimen_50">50sp</dimen>
+
+    <dimen name="margin_bottom">16dp</dimen>
+    <dimen name="margin_top">16dp</dimen>
+    <dimen name="margin_left">16dp</dimen>
+    <dimen name="margin_right">16dp</dimen>
+    <dimen name="margin_right_handle">22dp</dimen>
+    <dimen name="icon_width">40dp</dimen>
+    <dimen name="icon_height">40dp</dimen>
+    <dimen name="icon_width_24">24dp</dimen>
+    <dimen name="icon_height_24">24dp</dimen>
+
+
+    <dimen name="toolbar_height">64dp</dimen><!-- 56 + 8 small margin top -->
+    <dimen name="margin_bottom_small">8dp</dimen>
+</resources>
